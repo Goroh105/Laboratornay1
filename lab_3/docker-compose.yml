@@ -1,0 +1,21 @@
+version: "3"
+services:
+  proizvoditel-service:
+    image: dolsoft/proizvoditel-service:1.0
+    ports:
+      - "8083:8080"
+    container_name: proizvoditel-service
+    networks:
+      - backend
+
+  product-service:
+    image: dolsoft/product-service:1.0
+    ports:
+      - "8084:8080"
+    container_name: product-service
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
