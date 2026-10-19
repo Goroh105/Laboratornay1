@@ -1,0 +1,4 @@
+com\dolsoft\productservice\controller\ProductController.class
+com\dolsoft\productservice\service\ProductService.class
+com\dolsoft\productservice\ProductServiceApplication.class
+com\dolsoft\productservice\model\Product.class
