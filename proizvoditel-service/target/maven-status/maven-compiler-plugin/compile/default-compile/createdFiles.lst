@@ -1,0 +1,4 @@
+com\dolsoft\proizvoditelservice\model\Proizvoditel.class
+com\dolsoft\proizvoditelservice\ProizvoditelServiceApplication.class
+com\dolsoft\proizvoditelservice\controller\ProizvoditelController.class
+com\dolsoft\proizvoditelservice\service\ProizvoditelService.class
